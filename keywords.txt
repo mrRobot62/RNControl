@@ -1,0 +1,48 @@
+#######################################
+# Syntax Coloring Map RN-Control board
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readAnalog	KEYWORD2	ReadAnalogPort
+motor		KEYWORD2	MotorCommand
+fwMotor		KEYWORD2	ForwardMotor
+bwMotor		KEYWORD2	BackwardMotor
+stopMotor	KEYWORD2	StopMotor
+arcMotor	KEYWORD2	ArcMotor
+getButton	KEYWORD2	GetButton
+initUART	KEYWORD2	InitUART
+sendChar	KEYWORD2	SendChar
+sendString	KEYWORD2	SendString
+sound		KEYWORD2	Sound
+TestPortC	KEYWORD2	
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+RNControl	KEYWORD2	RNControlLibrary
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+FORWARD 				LITERAL1	Constants
+BACKWARD 				LITERAL1	Constants
+MOTOR_ONE 				LITERAL1	Constants
+MOTOR_TWO 				LITERAL1	Constants
+MOTOR_BOTH 				LITERAL1	Constants
+MOTOR_DIR_FORWARD 		LITERAL1	Constants
+MOTOR_DIR_BACKWARD 		LITERAL1	Constants
+MOTOR_ARC_CW 			LITERAL1	Constants
+MOTOR_ARC_CCW 			LITERAL1	Constants
+MAX_ARC_RADIUS 			LITERAL1	Constants
+MAX_SPEED 				LITERAL1	Constants
+
+
