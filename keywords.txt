@@ -12,37 +12,37 @@
 # Methods and Functions (KEYWORD2)
 #######################################
 
-readAnalog	KEYWORD2	ReadAnalogPort
-motor		KEYWORD2	MotorCommand
-fwMotor		KEYWORD2	ForwardMotor
-bwMotor		KEYWORD2	BackwardMotor
-stopMotor	KEYWORD2	StopMotor
-arcMotor	KEYWORD2	ArcMotor
-getButton	KEYWORD2	GetButton
-initUART	KEYWORD2	InitUART
-sendChar	KEYWORD2	SendChar
-sendString	KEYWORD2	SendString
-sound		KEYWORD2	Sound
-TestPortC	KEYWORD2	
+readAnalog	KEYWORD2
+motor	KEYWORD2
+fwMotor	KEYWORD2
+bwMotor	KEYWORD2
+stopMotor	KEYWORD2
+arcMotor	KEYWORD2
+getButton	KEYWORD2
+initUART	KEYWORD2
+sendChar	KEYWORD2
+sendString	KEYWORD2
+sound	KEYWORD2
+TestPortC	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
 #######################################
-RNControl	KEYWORD2	RNControlLibrary
+RNControl	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-FORWARD 				LITERAL1	Constants
-BACKWARD 				LITERAL1	Constants
-MOTOR_ONE 				LITERAL1	Constants
-MOTOR_TWO 				LITERAL1	Constants
-MOTOR_BOTH 				LITERAL1	Constants
-MOTOR_DIR_FORWARD 		LITERAL1	Constants
-MOTOR_DIR_BACKWARD 		LITERAL1	Constants
-MOTOR_ARC_CW 			LITERAL1	Constants
-MOTOR_ARC_CCW 			LITERAL1	Constants
-MAX_ARC_RADIUS 			LITERAL1	Constants
-MAX_SPEED 				LITERAL1	Constants
+FORWARD	LITERAL1	Constants
+BACKWARD	LITERAL1	Constants
+MOTOR_ONE	LITERAL1	Constants
+MOTOR_TWO	LITERAL1	Constants
+MOTOR_BOTH	LITERAL1	Constants
+MOTOR_DIR_FORWARD	LITERAL1	Constants
+MOTOR_DIR_BACKWARD	LITERAL1	Constants
+MOTOR_ARC_CW	LITERAL1	Constants
+MOTOR_ARC_CCW	LITERAL1	Constants
+MAX_ARC_RADIUS	LITERAL1	Constants
+MAX_SPEED	LITERAL1	Constants
 
 
